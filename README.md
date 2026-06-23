@@ -60,3 +60,21 @@ launch the cybersecurity quiz.
 Say "show activity log" or "what have you done for me?" to review
 recent actions.
 Click ⏻ END to close the session with a farewell message.
+
+## Project Structure
+
+CybersecurityChatbot/
+ ├─ MainWindow.xaml / MainWindow.xaml.cs   # GUI shell, all event handlers
+ ├─ ChatBot.cs                              # Conversation engine + NLP routing
+ ├─ KeywordResponder.cs                     # Cybersecurity keyword responses
+ ├─ TopicStore.cs                           # Extended topic responses
+ ├─ SentimentDetector.cs                    # Sentiment analysis (unchanged from Part 2)
+ ├─ MemoryStore.cs                          # User name & favourite topic (unchanged from Part 2)
+ ├─ AudioPlayer.cs                          # Plays the greeting sound
+ ├─ CyberTask.cs                            # Task data model
+ ├─ TaskStorageHelper.cs                    # tasks.json read/write (CRUD)
+ ├─ TaskManager.cs                          # Task business logic + logging
+ ├─ QuizManager.cs                          # Quiz questions, scoring, flow
+ ├─ ActivityLogger.cs                       # Timestamped activity log
+ ├─ tasks.json                              # Auto-created task storage
+ └─ Ahlumile.wav                            # Greeting sound
