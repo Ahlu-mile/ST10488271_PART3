@@ -43,3 +43,20 @@ Activity Log: every significant action (task added/completed/deleted,
 reminder set, quiz started/finished, keyword matched) is logged with a
 timestamp. Type "show activity log" or "what have you done for me?" to see
 the last 10 entries, with a "show more" option for the full history.
+
+## How to Use the App
+
+Enter your first name and surname on the welcome screen.
+Chat naturally — ask about phishing, passwords, malware, privacy, VPNs,
+2FA, and more.
+Say "tell me more" to continue the last topic.
+Say "add task - [title]" (e.g. "Add a task to enable two-factor
+authentication") to create a task. The bot will ask if you'd like a
+reminder.
+Open the Task Assistant panel from the sidebar to view, complete, or
+delete tasks directly.
+Click the 🎮 QUIZ button (next to Send) or say "start quiz" to
+launch the cybersecurity quiz.
+Say "show activity log" or "what have you done for me?" to review
+recent actions.
+Click ⏻ END to close the session with a farewell message.
